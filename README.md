@@ -11,37 +11,43 @@ _Joiner → Mover → Leaver_
 
 ---
 
-<details>
-  <summary><b>📚 Table of Contents</b></summary>
+<details open>
+  <summary><h2>📚 Table of Contents</h2></summary>
 
-- [Objective](#-objective)
-- [Identity Architecture & Naming](#-identity-architecture--naming)
-- [PART 1 — Joiner: Sierra Nova (IT Support)](#-part-1--joiner-sierra-nova-it-support)
-- [PART 2 — Mover (BEFORE): Jax Orion in Finance](#-part-2--mover-before-jax-orion-in-finance)
-- [Evidence & Screenshots (Audit Artifacts)](#-evidence--screenshots-audit-artifacts)
-- [Licensing Note](#-licensing-note)
-- [What’s Next](#-whats-next)
-- [Repo Structure](#-repo-structure)
+- [Objective](#objective)
+- [Identity Architecture & Naming](#identity-architecture--naming)
+- [PART 1 — Joiner: Sierra Nova (IT Support)](#part-1--joiner-sierra-nova-it-support)
+- [PART 2A — Mover BEFORE (Jax Orion, Finance)](#part-2a--mover-before-jax-orion-in-finance)
+- [PART 2B — Mover AFTER (Jax Orion, IT)](#part-2b--mover-after-jax-orion-transitions-to-it)
+- [Evidence & Screenshots](#evidence--screenshots-audit-artifacts)
+- [Licensing Note](#licensing-note)
+- [What’s Next](#whats-next)
+- [Repo Structure](#repo-structure)
 
 </details>
 
 ---
 
-## 🎯 Objective
+<details open>
+  <summary><h2 id="objective">🎯 Objective</h2></summary>
+
 Demonstrate enterprise-grade **Identity Lifecycle Management** using Entra ID:
 
-- ✅ **Joiner:** onboard Sierra Nova → IT Support  
-- ✅ **Mover (BEFORE):** Jax Orion in Finance  
-- ⏳ **Mover (AFTER):** Jax transitions to IT  
-- ⏳ **Leaver:** Mara Flux deprovisioning  
+- ✅ **Joiner:** Sierra Nova onboarded to IT Support  
+- ✅ **Mover (BEFORE):** Jax Orion with Finance access  
+- ✅ **Mover (AFTER):** Jax transitions to IT  
+- ⏳ **Leaver:** Mara Flux (coming next)  
 
 This project mirrors real-world IAM operations used in modern orgs.
 
+</details>
+
 ---
 
-## 🏗️ Identity Architecture & Naming
+<details open>
+  <summary><h2 id="identity-architecture--naming">🏗️ Identity Architecture & Naming</h2></summary>
 
-**Department prefixes**
+### **Department prefixes**
 - `FIN-*` — Finance  
 - `HR-*` — Human Resources  
 - `IT-*` — IT Department  
@@ -49,12 +55,12 @@ This project mirrors real-world IAM operations used in modern orgs.
 - `EXT-*` — Contractors  
 - `GG-*` — Global security scopes (e.g., MFA enforcement)
 
-**Applications**
-- **Finance-Ticketing**
-- **Support-Ticketing**
+### **Applications**
+- **Finance-Ticketing**  
+- **Support-Ticketing**  
 - **Knowledge Base**
 
-**IAM Concepts Demonstrated**
+### **IAM Concepts Demonstrated**
 - RBAC  
 - Least Privilege  
 - Attribute-driven access  
@@ -62,192 +68,172 @@ This project mirrors real-world IAM operations used in modern orgs.
 - Enterprise App assignments  
 - Licensing constraints documentation  
 
+</details>
+
 ---
 
-## 🧩 PART 1 — Joiner: Sierra Nova (IT Support)
+<details open>
+  <summary><h2 id="part-1--joiner-sierra-nova-it-support">🧩 PART 1 — Joiner: Sierra Nova (IT Support)</h2></summary>
 
-**User**
-- Name: **Sierra Nova**
-- Department: **IT**
-- Title: **Support Technician**
+### ✅ **User**
+- **Name:** Sierra Nova  
+- **Department:** IT  
+- **Title:** Support Technician  
 
-**Groups**
-- ✅ `IT-Support-Agents`
+### ✅ **Groups**
+- `IT-Support-Agents`
 
-**Applications**
-- ✅ **Support-Ticketing**  
-- ✅ **Knowledge Base**
+### ✅ **Applications**
+- Support-Ticketing  
+- Knowledge Base  
 
-**Audit summary screenshot**<br>
+### ✅ **Audit Summary Screenshot**
 ![Sierra IT Summary](screenshots/sierra-it-access-summary.png)
+
+</details>
+
 ---
 
-## 🔁 PART 2A — Mover (BEFORE): Jax Orion in Finance
+<details open>
+  <summary><h2 id="part-2a--mover-before-jax-orion-in-finance">🔁 PART 2A — Mover (BEFORE): Jax Orion in Finance</h2></summary>
 
-**User**
-- Name: **Jax Orion**
-- Department: **Finance**
-- Title: **Finance Analyst**
+### ✅ **User**
+- **Department:** Finance  
+- **Title:** Finance Analyst  
 
-**Groups**
-- ✅ `FIN-Staff`  
-- ✅ `FIN-Apps`
+### ✅ **Groups**
+- `FIN-Staff`  
+- `FIN-Apps`  
 
-**Applications**
-- ✅ **Finance-Ticketing**  
+### ✅ **Applications**
+- Finance-Ticketing  
   _(Direct assignment due to free-tier limitation)_
 
-**Audit summary screenshot**
-
+### ✅ **Audit Summary Screenshot**
 ![Jax Finance Summary](screenshots/jax-finance-access-summary.png)
+
+</details>
 
 ---
 
-## 🔁 PART 2B — Mover (AFTER): Jax Orion Transitions to IT
+<details open>
+  <summary><h2 id="part-2b--mover-after-jax-orion-transitions-to-it">🔁 PART 2B — Mover (AFTER): Jax Orion Transitions to IT</h2></summary>
 
-After the Finance → IT department change, Jax’s access is updated to follow
-least-privilege and role-based access control (RBAC).  
-This section demonstrates attribute updates, group transitions, and application reassignment.
-
-### ✅ New Job Information
+### ✅ **New Job Information**
 - **Department:** IT  
 - **Title:** IT Support Technician  
 ![Jax IT Dept Updated](screenshots/jax-it-department-updated.png)
 
 ---
 
-### ✅ Finance Access Removed
+### ✅ **Finance Access Removed**
 - ❌ FIN-Staff  
 - ❌ FIN-Apps  
-- ❌ Finance-Ticketing (direct assignment)
+- ❌ Finance-Ticketing  
 
 ![Jax Finance Groups Removed](screenshots/jax-finance-groups-removed.png)
 ![Jax Finance Ticketing Removed](screenshots/jax-finance-ticketing-removed.png)
 
 ---
 
-### ✅ IT Access Granted
+### ✅ **IT Access Granted**
 **Groups added:**
-- ✅ IT-Support-Agents  
-- ✅ IT-Apps  
+- IT-Support-Agents  
+- IT-Apps  
 
 ![Jax IT Groups Added](screenshots/jax-it-groups-added.png)
 
-**Applications assigned:**
-- ✅ Support-Ticketing  
-- ✅ Knowledge Base  
+**Applications added:**
+- Support-Ticketing  
+- Knowledge Base  
 
 ![Jax Support Ticketing Added](screenshots/jax-support-ticketing-added.png)
 ![Jax Knowledge Base Added](screenshots/jax-knowledge-base-added.png)
 
 ---
 
-### ✅ Final IT Access Summary (Audit-Ready)
-This combines HR attributes + group memberships + enterprise application access.
-
+### ✅ **Final IT Access Summary**
 ![Jax IT Access Summary](screenshots/jax-it-access-summary.png)
 
----
-
-## 🧪 Evidence & Screenshots (Audit Artifacts)
-
-### ✅ Joiner — Sierra Nova (IT Support)
-
-**Profile Overview**  
-![Sierra Profile](screenshots/joiner-sierra-profile.png)
-
-**Group Membership (IT)**  
-![Sierra IT Support Group](screenshots/sierra-added-to-it-support.png)
-
-**Enterprise Apps Created**  
-![Knowledge Base App](screenshots/knowledge-app-created.png)  
-![Ticketing App](screenshots/ticketing-app-created.png)
-
-**Enterprise App Assignments**  
-![Sierra Ticketing Assignment](screenshots/ticketing-app-sierra-direct.png)  
-![Sierra Knowledge Base Assignment](screenshots/knowledge-app-sierra-direct.png)
-
-**Final Audit Screenshot**  
-![Sierra IT Summary](screenshots/sierra-it-access-summary.png)
+</details>
 
 ---
 
-### ✅ Mover (BEFORE) — Jax Orion (Finance)
+<details>
+  <summary><h2 id="evidence--screenshots-audit-artifacts">🧪 Evidence & Screenshots (Audit Artifacts)</h2></summary>
 
-**Profile Overview**  
-![Jax Profile](screenshots/mover-jax-profile.png)
+### ✅ **Joiner — Sierra Nova**
 
-**Department & Job Title**  
-![Jax Department Finance](screenshots/jax-finance-department.png)
-
-**Group Memberships**  
-![Jax Finance Groups](screenshots/jax-finance-group-memberships.png)
-
-**App Assignment**  
-![Jax Ticketing Assignment](screenshots/jax-finance-ticketing-access.png)
-
-**Final Audit Screenshot**  
-![Jax Finance Summary](screenshots/jax-finance-access-summary.png)
+![Sierra Profile](screenshots/joiner-sierra-profile.png)  
+![Sierra IT Group](screenshots/sierra-added-to-it-support.png)  
+![Knowledge App](screenshots/knowledge-app-created.png)  
+![Ticketing App](screenshots/ticketing-app-created.png)  
+![Sierra Ticketing Assign](screenshots/ticketing-app-sierra-direct.png)  
+![Sierra KB Assign](screenshots/knowledge-app-sierra-direct.png)  
+![Sierra Summary](screenshots/sierra-it-access-summary.png)
 
 ---
 
-### ✅ System Limitation Evidence
+### ✅ **Mover BEFORE — Jax Orion**
 
-**Group → App Assignment Blocked**  
+![Jax Profile](screenshots/mover-jax-profile.png)  
+![Jax Dept](screenshots/jax-finance-department.png)  
+![Jax Groups](screenshots/jax-finance-group-memberships.png)  
+![Jax App Assignment](screenshots/jax-finance-ticketing-access.png)  
+![Jax Summary](screenshots/jax-finance-access-summary.png)
+
+---
+
+### ✅ **Documented System Limitation**
+
 ![Group to App Blocked](screenshots/group-assignment-not-available.png)
 
 ---
 
-### ✅ Additional Context
+### ✅ **Additional Context**
 
-**Users List (JML People)**  
-![Users List](screenshots/users-joiner-mover-leaver.png)
+![Users](screenshots/users-joiner-mover-leaver.png)  
+![Mara Profile](screenshots/leaver-mara-profile.png)  
+![Create App](screenshots/create-custom-app.png)
 
-**Leaver (Mara Flux) — Starting State**  
-![Mara Profile](screenshots/leaver-mara-profile.png)
-
-**Custom App Creation Blade**  
-![Create Custom App](screenshots/create-custom-app.png)
+</details>
 
 ---
 
-## 📌 Licensing Note
-Free/Developer Entra ID tenants **do not permit group → enterprise app** assignments.
+<details>
+  <summary><h2 id="licensing-note">📌 Licensing Note</h2></summary>
 
-In production (P1/P2):
-- Groups inherit app roles  
-- Group → application assignment works  
-- SSO + Application Provisioning available  
+Free-tier Entra ID tenants **cannot assign groups to enterprise apps**.  
+This lab documents the limitation and demonstrates IAM adaptability.
 
-This project intentionally documents the limitation as part of IAM knowledge.
+</details>
 
 ---
 
-## 📋 What’s Next
+<details>
+  <summary><h2 id="whats-next">📋 What’s Next</h2></summary>
 
-### ✅ Mover (AFTER) — Jax transitions to IT
-To be completed:
-- Change Department → **IT**  
-- Change Title → **IT Support Technician**  
-- Remove Finance groups + apps  
-- Add IT groups + apps  
-- Capture: `screenshots/jax-it-access-summary.png`
+### ✅ **Mover AFTER** (Completed)
 
-### ✅ Leaver — Mara Flux (deactivation workflow)
-- Disable Sign-in  
+### ⏳ **PART 3 — Leaver: Mara Flux**
+To do:
+- Disable sign-in  
 - Revoke sessions  
-- Remove group & app assignments  
-- Capture final state  
+- Remove groups/apps  
+- Screenshot final state: `mara-leaver-final.png`  
+
+</details>
 
 ---
 
-## 📂 Repo Structure
+<details>
+  <summary><h2 id="repo-structure">📂 Repo Structure</h2></summary>
 
 ```text
 project-3-entra-id-jml/
 │ README.md
 └── screenshots/
-    ├─ banner-project3.png
+    ├─ jml_banner.png
     ├─ joiner-sierra-profile.png
     ├─ sierra-added-to-it-support.png
     ├─ ticketing-app-sierra-direct.png
@@ -260,6 +246,13 @@ project-3-entra-id-jml/
     ├─ jax-finance-group-memberships.png
     ├─ jax-finance-ticketing-access.png
     ├─ jax-finance-access-summary.png
+    ├─ jax-it-department-updated.png
+    ├─ jax-finance-groups-removed.png
+    ├─ jax-finance-ticketing-removed.png
+    ├─ jax-it-groups-added.png
+    ├─ jax-support-ticketing-added.png
+    ├─ jax-knowledge-base-added.png
+    ├─ jax-it-access-summary.png
     ├─ group-assignment-not-available.png
     ├─ users-joiner-mover-leaver.png
     ├─ leaver-mara-profile.png

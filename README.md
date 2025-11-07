@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="screenshots/banner-project3.png" alt="Project 3 — Identity Lifecycle (JML) Banner" width="100%">
+  <img src="screenshots/jml_banner.png" alt="Project 3 — Identity Lifecycle (JML) Banner" width="100%">
 </p>
 
 # 🔄 Project 3 — Entra ID (Azure AD) Identity Lifecycle (JML)

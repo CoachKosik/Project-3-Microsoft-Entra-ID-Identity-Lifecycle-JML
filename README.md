@@ -97,7 +97,8 @@ This project mirrors real-world IAM operations used in modern orgs.
 - ✅ **Finance-Ticketing**  
   _(Direct assignment due to free-tier limitation)_
 
-**Audit summary screenshot**<br>
+**Audit summary screenshot**
+
 ![Jax Finance Summary](screenshots/jax-finance-access-summary.png)
 
 ---
@@ -111,8 +112,7 @@ This section demonstrates attribute updates, group transitions, and application 
 ### ✅ New Job Information
 - **Department:** IT  
 - **Title:** IT Support Technician  
-
-📸 `screenshots/jax-it-department-updated.png`
+![Jax IT Dept Updated](screenshots/jax-it-department-updated.png)
 
 ---
 
@@ -121,8 +121,8 @@ This section demonstrates attribute updates, group transitions, and application 
 - ❌ FIN-Apps  
 - ❌ Finance-Ticketing (direct assignment)
 
-📸 `screenshots/jax-finance-groups-removed.png`  
-📸 `screenshots/jax-finance-ticketing-removed.png`
+![Jax Finance Groups Removed](screenshots/jax-finance-groups-removed.png)
+![Jax Finance Ticketing Removed](screenshots/jax-finance-ticketing-removed.png)
 
 ---
 
@@ -131,23 +131,21 @@ This section demonstrates attribute updates, group transitions, and application 
 - ✅ IT-Support-Agents  
 - ✅ IT-Apps  
 
-📸 `screenshots/jax-it-groups-added.png`
+![Jax IT Groups Added](screenshots/jax-it-groups-added.png)
 
 **Applications assigned:**
 - ✅ Support-Ticketing  
 - ✅ Knowledge Base  
 
-📸 `screenshots/jax-support-ticketing-added.png`  
-📸 `screenshots/jax-knowledge-base-added.png`
+![Jax Support Ticketing Added](screenshots/jax-support-ticketing-added.png)
+![Jax Knowledge Base Added](screenshots/jax-knowledge-base-added.png)
 
 ---
 
 ### ✅ Final IT Access Summary (Audit-Ready)
 This combines HR attributes + group memberships + enterprise application access.
 
-📸 `screenshots/jax-it-access-summary.png`
-
-</details>
+![Jax IT Access Summary](screenshots/jax-it-access-summary.png)
 
 ---
 

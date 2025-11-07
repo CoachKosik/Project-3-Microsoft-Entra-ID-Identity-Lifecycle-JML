@@ -78,12 +78,11 @@ This project mirrors real-world IAM operations used in modern orgs.
 - ✅ **Support-Ticketing**  
 - ✅ **Knowledge Base**
 
-**Audit summary screenshot**
-- `screenshots/sierra-it-access-summary.png`
-
+**Audit summary screenshot**<br>
+![Sierra IT Summary](screenshots/sierra-it-access-summary.png)
 ---
 
-## 🔁 PART 2 — Mover (BEFORE): Jax Orion in Finance
+## 🔁 PART 2A — Mover (BEFORE): Jax Orion in Finance
 
 **User**
 - Name: **Jax Orion**
@@ -98,8 +97,57 @@ This project mirrors real-world IAM operations used in modern orgs.
 - ✅ **Finance-Ticketing**  
   _(Direct assignment due to free-tier limitation)_
 
-**Audit summary screenshot**
-- `screenshots/jax-finance-access-summary.png`
+**Audit summary screenshot**<br>
+![Jax Finance Summary](screenshots/jax-finance-access-summary.png)
+
+---
+
+## 🔁 PART 2B — Mover (AFTER): Jax Orion Transitions to IT
+
+After the Finance → IT department change, Jax’s access is updated to follow
+least-privilege and role-based access control (RBAC).  
+This section demonstrates attribute updates, group transitions, and application reassignment.
+
+### ✅ New Job Information
+- **Department:** IT  
+- **Title:** IT Support Technician  
+
+📸 `screenshots/jax-it-department-updated.png`
+
+---
+
+### ✅ Finance Access Removed
+- ❌ FIN-Staff  
+- ❌ FIN-Apps  
+- ❌ Finance-Ticketing (direct assignment)
+
+📸 `screenshots/jax-finance-groups-removed.png`  
+📸 `screenshots/jax-finance-ticketing-removed.png`
+
+---
+
+### ✅ IT Access Granted
+**Groups added:**
+- ✅ IT-Support-Agents  
+- ✅ IT-Apps  
+
+📸 `screenshots/jax-it-groups-added.png`
+
+**Applications assigned:**
+- ✅ Support-Ticketing  
+- ✅ Knowledge Base  
+
+📸 `screenshots/jax-support-ticketing-added.png`  
+📸 `screenshots/jax-knowledge-base-added.png`
+
+---
+
+### ✅ Final IT Access Summary (Audit-Ready)
+This combines HR attributes + group memberships + enterprise application access.
+
+📸 `screenshots/jax-it-access-summary.png`
+
+</details>
 
 ---
 

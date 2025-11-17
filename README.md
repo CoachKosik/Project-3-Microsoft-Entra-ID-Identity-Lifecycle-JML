@@ -95,14 +95,14 @@ Applications:<br>
 | **After** – IT groups assigned | `jax-it-groups-added.png` |
 | **After** – Ticketing + Knowledge Base applied | `jax-it-access-summary.png` |
 
-**Final Access**
+**Final Access**<br>
 
-Department: IT
-Groups:
-✔ IT-Support-Agents
-✔ IT-Apps
-Applications:
-✔ Support-Ticketing
+Department: IT<br>
+Groups:<br>
+✔ IT-Support-Agents<br>
+✔ IT-Apps<br>
+Applications:<br>
+✔ Support-Ticketing<br>
 ✔ Knowledge Base
 
 pgsql

@@ -23,9 +23,9 @@ This is **Project 3** in a 4-part Enterprise IAM portfolio series.
 
 - [Lifecycle Objectives](#-lifecycle-objectives)
 - [Identity Personas](#-identity-personas)
-- [Joiner Process](#-joiner-new-hire-onboarding)
-- [Mover Process](#-mover-employee-role-change)
-- [Leaver Process](#-leaver-secure-termination)
+- [Joiner Process](#-joiner---new-hire-onboarding)
+- [Mover Process](#-mover---employee-role-change)
+- [Leaver Process](#-leaver---secure-termination)
 - [Audit Evidence](#-audit-evidence)
 - [What I Learned](#-what-i-learned)
 - [Next Project](#-next-project—conditional-access-zero-trust)

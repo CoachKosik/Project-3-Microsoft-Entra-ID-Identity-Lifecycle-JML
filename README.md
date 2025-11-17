@@ -76,8 +76,8 @@ This is **Project 3** in a 4-part enterprise IAM portfolio series.
 - Title: Support Agent<br>
 - Groups: IT-Support-Agents<br>
 - Applications:<br>
- - ✔ Support-Ticketing<br>
- - ✔ KnowledgeBase
+- ✔ Support-Ticketing<br>
+- ✔ KnowledgeBase
 
 
 ---

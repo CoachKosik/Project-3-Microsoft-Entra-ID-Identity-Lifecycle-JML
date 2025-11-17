@@ -73,12 +73,12 @@ This is **Project 3** in a 4-part enterprise IAM portfolio series.
 
 **Assigned access**
 
-Department: IT
-Title: Support Agent
-Groups: IT-Support-Agents
-Applications:
-✔ Support-Ticketing
-✔ KnowledgeBase
+Department: IT<br>
+Title: Support Agent<br>
+Groups: IT-Support-Agents<br>
+Applications:<br>
+ ✔ Support-Ticketing<br>
+ ✔ KnowledgeBase
 
 
 ---

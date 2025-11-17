@@ -23,12 +23,12 @@ This is **Project 3** in a 4-part Enterprise IAM portfolio series.
 
 - [Lifecycle Objectives](#-lifecycle-objectives)
 - [Identity Personas](#-identity-personas)
-- [Joiner Process](#-joiner)
-- [Mover Process](#-mover)
-- [Leaver Process](#-leaver)
+- [Joiner Process](#-joiner-new-hire-onboarding)
+- [Mover Process](#-mover-employee-role-change)
+- [Leaver Process](#-leaver-secure-termination)
 - [Audit Evidence](#-audit-evidence)
 - [What I Learned](#-what-i-learned)
-- [Next Project](#-next-project)
+- [Next Project](#-next-project—conditional-access-zero-trust)
 - [Repo Structure](#-repo-structure)
 
 ---
@@ -54,8 +54,7 @@ This is **Project 3** in a 4-part Enterprise IAM portfolio series.
 
 ---
 
-## 🟢 JOINER
-New Hire Onboarding
+## 🟢 JOINER - New Hire Onboarding
 
 **Workflow**
 
@@ -71,8 +70,7 @@ New Hire Onboarding
 
 ---
 
-## 🟡 MOVER
-Employee Role Change
+## 🟡 MOVER - Employee Role Change
 
 ▶ **Sierra Nova moves from Standard User → IT Support**
 
@@ -88,8 +86,7 @@ Employee Role Change
 
 ---
 
-## 🔴 LEAVER
-Secure Termination
+## 🔴 LEAVER - Secure Termination
 
 ▶ **Eddie Spark leaves the organization**
 

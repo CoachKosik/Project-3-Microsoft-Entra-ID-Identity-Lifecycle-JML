@@ -97,13 +97,13 @@ This is **Project 3** in a 4-part enterprise IAM portfolio series.
 
 **Final Access**<br>
 
-Department: IT<br>
-Groups:<br>
-✔ IT-Support-Agents<br>
-✔ IT-Apps<br>
-Applications:<br>
-✔ Support-Ticketing<br>
-✔ Knowledge Base
+- Department: IT<br>
+- Groups:<br>
+  ✔ IT-Support-Agents<br>
+  ✔ IT-Apps<br>
+- Applications:<br>
+  ✔ Support-Ticketing<br>
+  ✔ Knowledge Base
 
 **WHY THIS MATTERS**
 
@@ -131,10 +131,10 @@ This lab **removes old access BEFORE adding new.**
 
 **Terminal Status**
 
-Account: Disabled / Sign-in blocked<br>
-Groups: None<br>
-Applications: None<br>
-Notes: Sessions revoked, license removed, terminal evidence captured<br>
+- Account: Disabled / Sign-in blocked<br>
+- Groups: None<br>
+- Applications: None<br>
+- Notes: Sessions revoked, license removed, terminal evidence captured<br>
 
 ---
 

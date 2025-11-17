@@ -55,7 +55,7 @@ This is **Project 3** in a 4-part Enterprise IAM portfolio series.
 ---
 
 ## 🟢 JOINER
-— New Hire Onboarding
+New Hire Onboarding
 
 **Workflow**
 
@@ -72,7 +72,7 @@ This is **Project 3** in a 4-part Enterprise IAM portfolio series.
 ---
 
 ## 🟡 MOVER
-— Employee Role Change
+Employee Role Change
 
 ▶ **Sierra Nova moves from Standard User → IT Support**
 
@@ -89,7 +89,7 @@ This is **Project 3** in a 4-part Enterprise IAM portfolio series.
 ---
 
 ## 🔴 LEAVER
-— Secure Termination
+Secure Termination
 
 ▶ **Eddie Spark leaves the organization**
 

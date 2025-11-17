@@ -163,8 +163,9 @@ Copy code
 
 ---
 
-## ➤ NEXT PROJECT — Zero Trust Conditional Access
+## ➤ NEXT PROJECT
 
+Zero Trust Conditional Access
 🔗 https://github.com/CoachKosik/Project-4-Entra-ID-Conditional-Access-Zero-Trust
 
 ---

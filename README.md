@@ -23,9 +23,9 @@ This is **Project 3** in a 4-part Enterprise IAM portfolio series.
 
 - [Lifecycle Objectives](#-lifecycle-objectives)
 - [Identity Personas](#-identity-personas)
-- [Joiner Process](#-joiner-process)
-- [Mover Process](#-mover-process)
-- [Leaver Process](#-leaver-process)
+- [Joiner Process](#-joiner)
+- [Mover Process](#-mover)
+- [Leaver Process](#-leaver)
 - [Audit Evidence](#-audit-evidence)
 - [What I Learned](#-what-i-learned)
 - [Next Project](#-next-project)

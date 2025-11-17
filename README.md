@@ -23,7 +23,7 @@ This is **Project 3** in a 4-part Enterprise IAM portfolio series.
 
 - [Lifecycle Objectives](#-lifecycle-objectives)
 - [Identity Personas](#-identity-personas)
-- [Joiner Process](#-joiner—New Hire Onboarding)
+- [Joiner Process](#-joiner)
 - [Mover Process](#-mover)
 - [Leaver Process](#-leaver)
 - [Audit Evidence](#-audit-evidence)
@@ -54,7 +54,8 @@ This is **Project 3** in a 4-part Enterprise IAM portfolio series.
 
 ---
 
-## 🟢 JOINER — New Hire Onboarding
+## 🟢 JOINER
+— New Hire Onboarding
 
 **Workflow**
 
@@ -70,7 +71,8 @@ This is **Project 3** in a 4-part Enterprise IAM portfolio series.
 
 ---
 
-## 🟡 MOVER — Employee Role Change
+## 🟡 MOVER
+— Employee Role Change
 
 ▶ **Sierra Nova moves from Standard User → IT Support**
 
@@ -86,7 +88,8 @@ This is **Project 3** in a 4-part Enterprise IAM portfolio series.
 
 ---
 
-## 🔴 LEAVER — Secure Termination
+## 🔴 LEAVER
+— Secure Termination
 
 ▶ **Eddie Spark leaves the organization**
 

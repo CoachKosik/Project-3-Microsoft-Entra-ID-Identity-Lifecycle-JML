@@ -89,7 +89,7 @@ Applications:
 
 | Stage | Screenshot |
 |-------|------------|
-| Identity profile | `mover-jax-profile.png` |
+| Identity profile | `screenshots/mover-jax-profile.png` |
 | **Before** – Finance group membership | `jax-finance-group-memberships.png` |
 | **Before** – Finance access summary | `jax-finance-access-summary.png` |
 | **After** – Department updated | `jax-it-department-updated.png` |

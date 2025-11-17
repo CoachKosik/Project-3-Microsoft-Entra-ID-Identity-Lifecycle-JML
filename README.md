@@ -72,12 +72,12 @@ This is **Project 3** in a 4-part enterprise IAM portfolio series.
 | Final access summary | `sierra-it-access-summary.png` |
 
 **Assigned access**<br>
-Department: IT<br>
-Title: Support Agent<br>
-Groups: IT-Support-Agents<br>
-Applications:<br>
- ✔ Support-Ticketing<br>
- ✔ KnowledgeBase
+- Department: IT<br>
+- Title: Support Agent<br>
+- Groups: IT-Support-Agents<br>
+- Applications:<br>
+ - ✔ Support-Ticketing<br>
+ - ✔ KnowledgeBase
 
 
 ---

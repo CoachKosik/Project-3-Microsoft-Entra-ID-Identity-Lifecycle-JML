@@ -71,7 +71,7 @@ This is **Project 3** in a 4-part enterprise IAM portfolio series.
 | Added to IT Support group | `sierra-added-to-it-support.png` |
 | Final access summary | `sierra-it-access-summary.png` |
 
-**Assigned access**:<br>
+**Assigned access**<br>
 Department: IT<br>
 Title: Support Agent<br>
 Groups: IT-Support-Agents<br>
@@ -105,9 +105,6 @@ Applications:<br>
 ✔ Support-Ticketing<br>
 ✔ Knowledge Base
 
-pgsql
-Copy code
-
 **WHY THIS MATTERS**
 
 ❗ 70%+ of enterprises fail MOVER controls due to **privilege creep**
@@ -134,13 +131,10 @@ This lab **removes old access BEFORE adding new.**
 
 **Terminal Status**
 
-Account: Disabled / Sign-in blocked
-Groups: None
-Applications: None
-Notes: Sessions revoked, license removed, terminal evidence captured
-
-yaml
-Copy code
+Account: Disabled / Sign-in blocked<br>
+Groups: None<br>
+Applications: None<br>
+Notes: Sessions revoked, license removed, terminal evidence captured<br>
 
 ---
 

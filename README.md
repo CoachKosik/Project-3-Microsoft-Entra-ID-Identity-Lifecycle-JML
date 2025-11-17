@@ -198,6 +198,6 @@ Project-3-Entra-ID-Azure-AD-Identity-Lifecycle-JML/
     ├─ mara-leaver-final-summary.png
 ```
 
-⭐ If this helped you, STAR the repo
-🧑‍💼 IAM recruiters search GitHub for “JML Lifecycle”
+⭐ If this helped you, STAR the repo<br>
+🧑‍💼 IAM recruiters search GitHub for “JML Lifecycle”<br>
 💼 Full portfolio → https://github.com/CoachKosik

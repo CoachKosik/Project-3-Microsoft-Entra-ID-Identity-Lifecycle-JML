@@ -23,7 +23,7 @@ This is **Project 3** in a 4-part Enterprise IAM portfolio series.
 
 - [Lifecycle Objectives](#-lifecycle-objectives)
 - [Identity Personas](#-identity-personas)
-- [Joiner Process](#-joiner)
+- [Joiner Process](#-joiner—New Hire Onboarding)
 - [Mover Process](#-mover)
 - [Leaver Process](#-leaver)
 - [Audit Evidence](#-audit-evidence)

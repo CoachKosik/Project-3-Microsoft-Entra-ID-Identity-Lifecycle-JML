@@ -71,8 +71,7 @@ This is **Project 3** in a 4-part enterprise IAM portfolio series.
 | Added to IT Support group | `sierra-added-to-it-support.png` |
 | Final access summary | `sierra-it-access-summary.png` |
 
-**Assigned access**
-
+**Assigned access**:
 Department: IT<br>
 Title: Support Agent<br>
 Groups: IT-Support-Agents<br>

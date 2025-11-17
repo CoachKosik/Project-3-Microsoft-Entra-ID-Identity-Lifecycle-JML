@@ -30,7 +30,7 @@ This is **Project 3** in a 4-part enterprise IAM portfolio series.
 
 - [Lifecycle Objectives](#-lifecycle-objectives)
 - [Lifecycle Personas](#-lifecycle-personas)
-- [Joiner Workflow](#-joiner---sierra-nova-new-hire)
+- [Joiner Workflow](#-joiner---sierra-nova--new-hire-)
 - [Mover Workflow](#-mover-workflow)
 - [Leaver Workflow](#-leaver-workflow)
 - [Audit Evidence](#-audit-evidence)

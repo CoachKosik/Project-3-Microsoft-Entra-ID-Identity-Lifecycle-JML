@@ -32,7 +32,7 @@ This is **Project 3** in a 4-part enterprise IAM portfolio series.
 - [Lifecycle Personas](#-lifecycle-personas)
 - [Joiner Workflow](#-joiner--sierra-nova-new-hire)
 - [Mover Workflow](#-mover--jax-orion-finance--it)
-- [Leaver Workflow](#-leaver-workflow)
+- [Leaver Workflow](#-leaver--mara-flux-offboarding)
 - [Audit Evidence](#-audit-evidence)
 - [What I Learned](#-what-i-learned)
 - [Next Project](#-next-project)

@@ -129,8 +129,9 @@ _Finance → IT Transition_
 
 ---
 
-### 📊 MOVER BEFORE / AFTER COMPARISON TABLE
+### 📊 Final Access Summary
 
+MOVER BEFORE / AFTER COMPARISON TABLE
 | Change Type | BEFORE | AFTER |
 |-------------|--------|-------|
 | Department | Finance | IT |
@@ -139,7 +140,6 @@ _Finance → IT Transition_
 | Knowledge Base | ❌ No Access | ✔ Added |
 | Access Summary | Finance access only | Full IT privileges |
 
-Jax Mover Summary
 ![Finance Access Summary](screenshots/jax-finance-access-summary.png)
 
 ---

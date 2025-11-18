@@ -28,7 +28,7 @@ This is **Project 3 of 4** in my IAM Zero Trust portfolio.
 
 - [Objectives](#-objectives)
 - [Custom Enterprise Applications](#-custom-enterprise-applications)
-- [Joiner Workflow](#-joiner-workflow)
+- [Joiner Workflow](#-joiner--sierra-nova)
 - [Mover Workflow](#-mover-workflow)
 - [Leaver Workflow](#-leaver-workflow)
 - [Security Rationale](#-security-rationale)

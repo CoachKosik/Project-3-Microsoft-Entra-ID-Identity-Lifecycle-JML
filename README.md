@@ -7,6 +7,33 @@
 
 ---
 
+---
+
+## 🟦 Why This Project Matters to IAM Hiring Managers
+
+This repository demonstrates **real-world identity lifecycle governance**, not just basic Azure AD object creation.
+
+**What this proves I can do:**
+
+- 🔄 Manage full Joiner ▸ Mover ▸ Leaver (JML) flows
+- 🧩 Govern access using **group-based least privilege**
+- 🧱 Create and assign **custom enterprise applications**
+- 🧹 Remove ALL access during termination, including:
+  - ✔ App assignments
+  - ✔ Group memberships
+  - ✔ Sign-in status
+  - ✔ Active sessions
+- 🧾 Produce **audit-ready evidence** for every lifecycle stage
+
+This is the work companies expect from:
+
+➡ IAM Analysts  
+➡ Identity Governance Specialists  
+➡ Entra ID / Azure AD Engineers  
+➡ Security Operations IAM Support roles
+
+---
+
 ## 📌 Overview
 
 This project demonstrates a **complete enterprise Joiner ▸ Mover ▸ Leaver (JML) lifecycle** inside Microsoft Entra ID (Azure AD).
@@ -49,10 +76,16 @@ This is **Project 3 of 4** in my IAM Zero Trust portfolio.
 
 ---
 
-# 🧱 Custom Enterprise Applications
+## 🧱 Custom Enterprise Applications (Advanced IAM Skill Demonstration)
 
-> REAL IAM teams rarely assign access to built-in apps —  
-> **You proved you can govern custom applications too.**
+Most IAM portfolio projects only assign access to built-in Microsoft services.
+
+This project goes further by including:
+
+✔ Creation of two custom enterprise applications  
+✔ Group-based assignment and governance  
+✔ Validation of access through Joiner & Mover workflows  
+✔ Full removal of app access during Leaver offboarding
 
 <details>
 <summary><strong>📁 App Creation Evidence (Click to Expand)</strong></summary>

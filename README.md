@@ -104,7 +104,8 @@ _Finance → IT Transition_
 
 ![Finance Department](screenshots/jax-finance-department.png)  
 ![Finance Groups](screenshots/jax-finance-group-memberships.png)  
-![Finance Ticket App](screenshots/jax-finance-ticketing-access.png)  
+![Finance Ticket App](screenshots/jax-finance-ticketing-access.png)
+![Finance Access Summary](screenshots/jax-finance-access-summary.png)
 
 </details>
 
@@ -127,9 +128,8 @@ _Finance → IT Transition_
 
 </details>
 
----
-
-### 📊 Final Access Summary
+<details>
+<summary><strong>### 📊 Final Access Summary</strong></summary>
 
 MOVER BEFORE / AFTER COMPARISON TABLE
 | Change Type | BEFORE | AFTER |
@@ -140,7 +140,7 @@ MOVER BEFORE / AFTER COMPARISON TABLE
 | Knowledge Base | ❌ No Access | ✔ Added |
 | Access Summary | Finance access only | Full IT privileges |
 
-![Finance Access Summary](screenshots/jax-finance-access-summary.png)
+</details>
 
 ---
 

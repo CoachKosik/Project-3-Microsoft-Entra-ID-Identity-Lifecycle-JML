@@ -3,27 +3,31 @@
 </p>
 
 <h1 align="center">🔄 Project 3 — Microsoft Entra ID Identity Lifecycle (JML)</h1>
-<h3 align="center">Joiner ▸ Mover ▸ Leaver Automation ▸ Least Privilege Enforcement</h3>
+<h3 align="center">Joiner ▸ Mover ▸ Leaver ▸ Full Identity + App Lifecycle with Evidence</h3>
 
 ---
 
 ## 📌 Overview
 
-This project demonstrates a full **Joiner – Mover – Leaver (JML)** identity lifecycle inside **Microsoft Entra ID**, following real-world IAM governance principles:
+This project demonstrates a **complete enterprise Joiner ▸ Mover ▸ Leaver (JML) lifecycle** inside Microsoft Entra ID (Azure AD).
 
-✔ Automated access provisioning  
-✔ Zero Trust role boundaries  
-✔ Group-based app assignment  
-✔ Proper offboarding & license cleanup  
-✔ Screenshots proving ENTIRE lifecycle execution
+Unlike most JML tutorials, this one includes:
 
-This is **Project 3** in my 4-project IAM portfolio series.
+✔ FULL identity lifecycle  
+✔ **Enterprise app provisioning & removal**  
+✔ Group-based least privilege access  
+✔ Department attribute changes  
+✔ BEFORE & AFTER access validation  
+✔ **Termination proof including session revocation**
+
+This is **Project 3 of 4** in my IAM Zero Trust portfolio.
 
 ---
 
 ## 📚 Table of Contents
 
 - [Objectives](#-objectives)
+- [Custom Enterprise Applications](#-custom-enterprise-applications)
 - [Joiner Workflow](#-joiner-workflow)
 - [Mover Workflow](#-mover-workflow)
 - [Leaver Workflow](#-leaver-workflow)
@@ -38,93 +42,140 @@ This is **Project 3** in my 4-project IAM portfolio series.
 
 | Goal | Outcome |
 |------|---------|
-| Automate onboarding | Groups assign app access |
-| Enforce least privilege | No direct privileged role grants |
-| Track access changes | Before/after screenshots |
-| Enforce secure offboarding | Sessions revoked, apps removed, sign-in blocked |
+| Standardize onboarding | Groups assign app access |
+| Prevent privilege creep | Old access removed BEFORE new access |
+| Offboard securely | Sessions revoked & sign-in blocked |
+| Provide audit proof | ALL steps documented with screenshots |
 
 ---
 
-# 🟢 JOINER WORKFLOW — **Sierra Nova**  
+# 🧱 Custom Enterprise Applications
+
+> REAL IAM teams rarely assign access to built-in apps —  
+> **You proved you can govern custom applications too.**
+
+<details>
+<summary><strong>📁 App Creation Evidence (Click to Expand)</strong></summary>
+
+### 🛠 Ticketing System App Created  
+![Ticketing App Created](screenshots/ticketing-app-created.png)
+
+### 📚 Knowledge Base App Created  
+![Knowledge Base App Created](screenshots/knowledge-app-created.png)
+
+</details>
+
+---
+
+# 🟢 JOINER — **Sierra Nova**  
 _New IT Support Hire_
 
 <details>
-<summary><strong>📁 Before & After Evidence (Click to Expand)</strong></summary>
+<summary><strong>📁 JOINER Full Evidence</strong></summary>
 
-### 👤 Profile Created
-![Joiner Profile](screenshots/joiner-sierra-profile.png)
+### 👤 Identity Profile  
+![Profile](screenshots/joiner-sierra-profile.png)
 
-### 👥 Groups Assigned
-![Groups](screenshots/sierra-added-to-it-support.png)
+### 🧩 Added to IT Support Group  
+![Group Added](screenshots/sierra-added-to-it-support.png)
 
-### 📊 Access Summary
+### 🧾 Role + Department Validation  
+![User Matrix](screenshots/users-joiner-mover-leaver.png)
+
+### 🟦 Application Access Provisioned  
+✔ Ticketing System  
+✔ Knowledge Base  
+
+![Ticketing App Assignment](screenshots/ticketing-app-sierra-direct.png)  
+![KB Assignment](screenshots/knowledge-app-sierra-direct.png)
+
+### 📊 Final Access Summary  
 ![Access Summary](screenshots/sierra-it-access-summary.png)
 
-### 🧾 Applications Assigned
-- ✔ Support Ticketing  
-- ✔ Knowledge Base  
+</details>
 
-![Apps](screenshots/support-ticketing-added.png)  
-![Apps](screenshots/knowledge-app-sierra-direct.png)
+---
+
+# 🟡 MOVER — **Jax Orion**  
+_Finance → IT Transition_
+
+<details>
+<summary><strong>📁 BEFORE State (Finance)</strong></summary>
+
+![Finance Department](screenshots/jax-finance-department.png)  
+![Finance Groups](screenshots/jax-finance-group-memberships.png)  
+![Finance Ticket App](screenshots/jax-finance-ticketing-access.png)  
+![Finance Access Summary](screenshots/jax-finance-access-summary.png)
+
+</details>
+
+<details>
+<summary><strong>📁 AFTER State (IT Department)</strong></summary>
+
+![Department Updated](screenshots/jax-it-department-updated.png)  
+![IT Groups Assigned](screenshots/jax-it-groups-added.png)  
+![Ticketing Updated](screenshots/jax-support-ticketing-added.png)  
+![KB Added](screenshots/jax-knowledge-base-added.png)  
+![IT Access Summary](screenshots/jax-it-access-summary.png)
+
+</details>
+
+<details>
+<summary><strong>🧹 REMOVED Finance Access</strong></summary>
+
+![Ticket Removed](screenshots/jax-finance-ticketing-removed.png)  
+![Groups Removed](screenshots/jax-finance-groups-removed.png)
 
 </details>
 
 ---
 
-# 🟡 MOVER WORKFLOW — **Jax Orion**  
-_Finance → IT Transfer_
+### 📊 MOVER BEFORE / AFTER COMPARISON TABLE
 
-<details>
-<summary><strong>📁 Full Before/After Evidence</strong></summary>
-
-### 🔄 Department Change
-![Department](screenshots/mover-jax-profile.png)
-
-### ❌ Finance Groups Removed
-![Removed Groups](screenshots/jax-finance-groups-removed.png)
-
-### ✔ IT Groups Added
-![IT Groups Added](screenshots/jax-it-groups-added.png)
-
-### 📊 Updated Access Summary
-![Access Summary](screenshots/jax-it-access-summary.png)
-
-### 🧾 Application Entitlement Change
-| BEFORE | AFTER |
-|--------|-------|
-| Ticketing (Finance) | Ticketing (IT) |
-| No KB access | Added Knowledge Base |
-
-![Before](screenshots/jax-finance-ticketing-access.png)  
-![After](screenshots/jax-support-ticketing-added.png)  
-
-</details>
+| Change Type | BEFORE | AFTER |
+|-------------|--------|-------|
+| Department | Finance | IT |
+| Groups | Finance Groups | IT-Support-Agents |
+| Ticketing App | Finance Role | IT Support Role |
+| Knowledge Base | ❌ No Access | ✔ Added |
+| Access Summary | Finance access only | Full IT privileges |
 
 ---
 
-# 🔴 LEAVER WORKFLOW — **Mara Flux**  
-_Employee Offboarding_
+# 🔴 LEAVER — **Mara Flux**  
+_Employee Termination_
 
 <details>
-<summary><strong>📁 Full Deprovisioning Evidence</strong></summary>
+<summary><strong>📁 BEFORE — Still Active</strong></summary>
 
-### 🧍 Profile Before
-![Before Profile](screenshots/mara-leaver-profile-before.png)
+![Before Profile](screenshots/mara-leaver-profile-before.png)  
+![Before Groups](screenshots/mara-leaver-groups-before.png)  
+![Before Apps](screenshots/mara-leaver-apps-before.png)
 
-### 🛑 Groups Removed
-![Groups Removed](screenshots/mara-leaver-groups-removed.png)
+</details>
 
-### 🧾 App Access Removed
-![Apps Removed](screenshots/mara-leaver-apps-removed.png)
+<details>
+<summary><strong>🧹 ACCESS REMOVED</strong></summary>
 
-### 🔐 Sign-in Disabled
-![Blocked Sign-in](screenshots/mara-block-signin.png)
+![Groups Removed](screenshots/mara-leaver-groups-removed.png)  
+![Apps Removed](screenshots/mara-leaver-apps-removed.png)  
+![Attributes Updated](screenshots/mara-leaver-attributes-updated.png)
 
-### 🔄 Sessions Revoked
-![Sessions](screenshots/mara-revoke-sessions.png)
+</details>
 
-### 🧹 Final Offboard State
-![Final Summary](screenshots/mara-leaver-final-summary.png)
+<details>
+<summary><strong>🛑 ACCOUNT OFFBOARDING</strong></summary>
+
+![Block Sign-in](screenshots/mara-block-signin.png)  
+![Session Revoked](screenshots/mara-revoke-sessions.png)
+
+</details>
+
+<details>
+<summary><strong>📊 FINAL STATE CONFIRMATION</strong></summary>
+
+![Final Summary](screenshots/mara-leaver-final-summary.png)  
+![Terminated Profile](screenshots/leaver-mara-profile.png)
 
 </details>
 
@@ -132,26 +183,28 @@ _Employee Offboarding_
 
 ## 🧠 Security Rationale
 
-✔ NO standing privileged access  
-✔ NO manual app entitlement assignment  
-✔ Mover workflows **clean old access first** → prevents privilege creep  
-✔ Leaver workflows fully disable **identity + access + sessions**  
-✔ Evidence-based IAM governance **matches audit standards (ISO, SOC2, PCI)**
+✔ **Least privilege enforced** at each lifecycle stage  
+✔ Mover removes old permissions BEFORE granting new  
+✔ No standing privileged role assignments  
+✔ Session revocation prevents token reuse after termination  
+✔ **All lifecycle actions documented** → SOC2 / ISO 27001 compatible evidence
 
 ---
 
 ## 🧠 What I Learned
 
-🔹 How identity lifecycle drives **least privilege security**  
-🔹 Why Mover is the MOST dangerous phase (privilege creep risk)  
-🔹 Proven methods for **documenting IAM actions for auditors**  
-🔹 How to structure Entra ID for **real enterprise JML workflows**
+🔹 JOINER requires **automated group-based access**  
+🔹 MOVER is the most dangerous phase for **privilege creep**  
+🔹 LEAVER must remove app access AND revoke sessions — not just disable accounts  
+🔹 **Screenshots ARE audit evidence** — and hiring managers notice
 
 ---
 
 ## ➤ Next Project
 
-**Project 4 — Zero Trust Conditional Access Architecture**  
+**Project 4 — Zero Trust Conditional Access**  
+➡ Blocking legacy auth, enforcing MFA, restricting high-risk sign-ins
+
 🔗 https://github.com/CoachKosik/Project-4-Entra-ID-Conditional-Access-Zero-Trust
 
 ---
@@ -163,25 +216,40 @@ Project-3-Entra-ID-Identity-Lifecycle-JML/
 │ README.md
 └── screenshots/
    ├─ jml_banner.png
+   ├─ users-joiner-mover-leaver.png
    ├─ joiner-sierra-profile.png
-   ├─ sierra-it-access-summary.png
    ├─ sierra-added-to-it-support.png
-   ├─ support-ticketing-added.png
+   ├─ sierra-it-access-summary.png
+   ├─ ticketing-app-created.png
+   ├─ knowledge-app-created.png
+   ├─ ticketing-app-sierra-direct.png
    ├─ knowledge-app-sierra-direct.png
    ├─ mover-jax-profile.png
-   ├─ jax-it-access-summary.png
+   ├─ jax-finance-department.png
+   ├─ jax-finance-group-memberships.png
+   ├─ jax-finance-ticketing-access.png
+   ├─ jax-finance-access-summary.png
+   ├─ jax-it-department-updated.png
    ├─ jax-it-groups-added.png
-   ├─ jax-finance-groups-removed.png
    ├─ jax-support-ticketing-added.png
-   ├─ leaver-mara-profile-before.png
+   ├─ jax-knowledge-base-added.png
+   ├─ jax-it-access-summary.png
+   ├─ jax-finance-ticketing-removed.png
+   ├─ jax-finance-groups-removed.png
+   ├─ mara-leaver-profile-before.png
+   ├─ mara-leaver-groups-before.png
+   ├─ mara-leaver-apps-before.png
    ├─ mara-leaver-groups-removed.png
    ├─ mara-leaver-apps-removed.png
-   ├─ mara-revoke-sessions.png
+   ├─ mara-leaver-attributes-updated.png
    ├─ mara-block-signin.png
+   ├─ mara-revoke-sessions.png
    ├─ mara-leaver-final-summary.png
+   ├─ leaver-mara-profile.png
 ```
 
 ---
 
 ⭐ If this project helped you, STAR the repo
-🧑‍💻 Follow the full Zero Trust IAM portfolio → https://github.com/CoachKosik
+🧑‍💻 Full IAM portfolio → https://github.com/CoachKosik
+🧠 Proof-based IAM > text-only IAM

@@ -25,12 +25,12 @@ This repository demonstrates **real-world identity lifecycle governance**, not j
   - ✔ Active sessions
 - 🧾 Produce **audit-ready evidence** for every lifecycle stage
 
-This is the work companies expect from:
+These are the roles this project directly qualifies me for:
 
-➡ IAM Analysts  
-➡ Identity Governance Specialists  
-➡ Entra ID / Azure AD Engineers  
-➡ Security Operations IAM Support roles
+🟦 IAM Analyst  
+🟦 Identity Governance Specialist  
+🟦 Entra ID / Azure AD Engineer  
+🟦 Security Operations IAM Support
 
 ---
 

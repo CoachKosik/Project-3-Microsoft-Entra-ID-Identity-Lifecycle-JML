@@ -30,7 +30,7 @@ This is **Project 3 of 4** in my IAM Zero Trust portfolio.
 - [Custom Enterprise Applications](#-custom-enterprise-applications)
 - [Joiner Workflow](#-joiner--sierra-nova)
 - [Mover Workflow](#-mover--jax-orion)
-- [Leaver Workflow](#-leaver-workflow)
+- [Leaver Workflow](#-leaver--mara-flux)
 - [Security Rationale](#-security-rationale)
 - [What I Learned](#-what-i-learned)
 - [Next Project](#-next-project)
@@ -105,7 +105,6 @@ _Finance → IT Transition_
 ![Finance Department](screenshots/jax-finance-department.png)  
 ![Finance Groups](screenshots/jax-finance-group-memberships.png)  
 ![Finance Ticket App](screenshots/jax-finance-ticketing-access.png)  
-![Finance Access Summary](screenshots/jax-finance-access-summary.png)
 
 </details>
 
@@ -139,6 +138,9 @@ _Finance → IT Transition_
 | Ticketing App | Finance Role | IT Support Role |
 | Knowledge Base | ❌ No Access | ✔ Added |
 | Access Summary | Finance access only | Full IT privileges |
+
+Jax Mover Summary
+![Finance Access Summary](screenshots/jax-finance-access-summary.png)
 
 ---
 

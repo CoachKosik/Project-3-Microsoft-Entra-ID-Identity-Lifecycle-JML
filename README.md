@@ -129,7 +129,7 @@ _Finance → IT Transition_
 </details>
 
 <details>
-<summary><strong>### 📊 Final Access Summary</strong></summary>
+<summary><strong>📊 Final Access Summary</strong></summary>
 
 MOVER BEFORE / AFTER COMPARISON TABLE
 | Change Type | BEFORE | AFTER |
@@ -176,8 +176,8 @@ _Employee Termination_
 <details>
 <summary><strong>📊 FINAL STATE CONFIRMATION</strong></summary>
 
-![Final Summary](screenshots/mara-leaver-final-summary.png)  
 ![Terminated Profile](screenshots/leaver-mara-profile.png)
+![Final Summary](screenshots/mara-leaver-final-summary.png)  
 
 </details>
 

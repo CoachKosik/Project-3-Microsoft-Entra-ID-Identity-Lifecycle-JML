@@ -7,6 +7,11 @@
 
 ---
 
+#### Joiner · Mover · Leaver · Attribute Governance · App Provisioning
+
+> **TL;DR:** Simulated full identity lifecycle management (Joiner → Mover → Leaver) with attribute changes, group-based access updates, and secure deprovisioning.  
+> **Focus:** access provisioning/removal, enterprise app governance, audit trails.
+
 ---
 
 ## 🟦 Why This Project Matters to IAM Hiring Managers
@@ -282,6 +287,18 @@ Project-3-Entra-ID-Identity-Lifecycle-JML/
    ├─ mara-leaver-final-summary.png
    ├─ leaver-mara-profile.png
 ```
+
+---
+
+## 🧩 Skills Demonstrated
+- Identity lifecycle (Joiner–Mover–Leaver) automation concepts
+- Department/attribute-based governance with Entra ID
+- Group-based access provisioning & enforcement
+- Enterprise application assignment & removal
+- Access reviews (before/after snapshots)
+- Account termination workflows (block sign-in, revoke sessions)
+- Audit-ready IAM documentation with screenshots and evidence
+- Realistic IAM ticketing and HR-driven access scenarios
 
 ---
 

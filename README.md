@@ -30,7 +30,7 @@ This repository demonstrates **real-world identity lifecycle governance**, not j
   - ✔ Active sessions
 - 🧾 Produce **audit-ready evidence** for every lifecycle stage
 
-These are the roles this project directly qualifies me for:
+This aligns with the expectations for:
 
 🟦 IAM Analyst  
 🟦 Identity Governance Specialist  

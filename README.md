@@ -11,7 +11,7 @@
 
 ## 🟦 Why This Project Matters to IAM Hiring Managers
 
-This repository demonstrates **real-world identity lifecycle governance**, not just basic Azure AD object creation.
+This repository demonstrates **real-world identity lifecycle governance**, not just basic Entra ID object creation.
 
 **What this proves I can do:**
 
@@ -29,14 +29,14 @@ These are the roles this project directly qualifies me for:
 
 🟦 IAM Analyst  
 🟦 Identity Governance Specialist  
-🟦 Entra ID / Azure AD Engineer  
+🟦 Entra ID Engineer  
 🟦 Security Operations IAM Support
 
 ---
 
 ## 📌 Overview
 
-This project demonstrates a **complete enterprise Joiner ▸ Mover ▸ Leaver (JML) lifecycle** inside Microsoft Entra ID (Azure AD).
+This project demonstrates a **complete enterprise Joiner ▸ Mover ▸ Leaver (JML) lifecycle** inside Microsoft Entra ID (formerly Azure AD).
 
 Unlike most JML tutorials, this one includes:
 
@@ -240,7 +240,7 @@ _Employee Termination_
 **Project 4 — Zero Trust Conditional Access**  
 ➡ Blocking legacy auth, enforcing MFA, restricting high-risk sign-ins
 
-🔗 https://github.com/CoachKosik/Project-4-Entra-ID-Conditional-Access-Zero-Trust
+🔗 [Project 4 — Entra ID Zero Trust Conditional Access](https://github.com/CoachKosik/Project-4-Entra-ID-Conditional-Access-Zero-Trust/blob/main/README.md)
 
 ---
 

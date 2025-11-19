@@ -291,14 +291,14 @@ Project-3-Entra-ID-Identity-Lifecycle-JML/
 ---
 
 ## 🧩 Skills Demonstrated
-- Identity lifecycle (Joiner–Mover–Leaver) automation concepts
-- Department/attribute-based governance with Entra ID
-- Group-based access provisioning & enforcement
-- Enterprise application assignment & removal
-- Access reviews (before/after snapshots)
-- Account termination workflows (block sign-in, revoke sessions)
-- Audit-ready IAM documentation with screenshots and evidence
-- Realistic IAM ticketing and HR-driven access scenarios
+- Full identity lifecycle governance (Joiner → Mover → Leaver)
+- Attribute-driven access changes (department, job role, org changes)
+- Group-based provisioning & deprovisioning for enterprise apps
+- Access reviews using before/after snapshots & screenshot evidence
+- Enterprise app assignment & removal workflows
+- Termination controls (block sign-in, invalidate sessions, remove access)
+- IAM ticketing workflow simulation aligned with real organizational processes
+- Audit-aligned lifecycle documentation for compliance teams
 
 ---
 

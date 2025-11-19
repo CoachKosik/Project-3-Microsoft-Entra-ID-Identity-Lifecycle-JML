@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="screenshots/jml_banner.png" width="100%">
+  <img src="screenshots/project_3_banner.png" width="100%">
 </p>
 
 <h1 align="center">🔄 Project 3 — Microsoft Entra ID Identity Lifecycle (JML)</h1>
